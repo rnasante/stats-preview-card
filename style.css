@@ -1,0 +1,106 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000010;
+
+
+}
+
+/* .container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-family: sans-serif;
+
+} */
+
+
+.stat-sum-card {
+    background-repeat: no-repeat;
+    width: 70rem;
+    height: 22rem;
+    margin-bottom: 3.5rem;
+
+    /* to center card */
+    position: absolute;
+    display: flex;
+    top: 25%;
+    left: 10%;
+    transform: -25% -25%;
+    text-align: center;
+    
+}
+
+.stat-sum-card section {
+    width: 35rem;
+    font-family: sans-serif;
+    font-weight: bold;
+    background-color: #1f1f52;
+    color: white;
+    border-bottom-left-radius: .725rem;
+    border-top-left-radius: .725rem;
+
+    
+
+}
+
+.stat-sum-card img {
+  
+    float: right;
+    width: 35rem;
+    margin-top: 0;
+    margin-left: 0;
+    border-bottom-right-radius: .725rem;
+    border-top-right-radius: .725rem;
+
+    /* to create image overlay */
+    background: #d35ab5;
+    overflow: hidden;
+    object-fit: cover;
+    opacity: 0.4;
+
+    
+   
+}
+
+.all-stats {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: .625rem;
+    
+}
+
+h2 {
+    padding: 2.425rem;
+    margin-bottom: 0;
+}
+#insight {
+    color: violet;
+}
+
+#sum-text {
+    margin-bottom: 1.25rem;
+    margin-top: .425rem;
+    color: gray;
+    padding: .025rem;
+}
+
+#figures {
+    font-size: 18px;
+}
+
+#item {
+    color: gray;
+    padding: .425rem;
+    font-size: 12px;
+}
+
+#edit-image {
+     
+     
+
+     
+}
